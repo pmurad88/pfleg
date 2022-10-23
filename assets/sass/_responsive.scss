@@ -1,0 +1,123 @@
+      /*responsive*/ 
+@media all and (max-width:1169px){
+    .manutrigger {
+        display: block;
+        margin: 11px;
+    }
+    .header-manu {
+        position: fixed;
+        background: #ffff;
+        width: 300px;
+        right: -300px;
+        top: 178px;
+        z-index: 10;
+        height: 67vh;
+        transition: 0.4s;
+    }
+    .header-manu.active{
+       right: 0;
+    }
+    .link{
+        flex-direction: column;
+        display: block !important;
+    }
+    .link li a {
+        display: block;
+        padding: 17px 12px;
+        border-bottom: 1px solid #ddd;
+        margin: 0;
+    }
+    .about-right {
+        width: 435px;
+    }
+ 
+    
+}
+
+@media all and (max-width: 991px){
+    .header-top p {
+        margin-left: 35px;
+    }
+    .about-top-left::before {
+        content: "";
+        left: -159px;
+    }
+    .about-right::before {
+        content: "";
+        right: -85px;
+        top: 146px;
+    }
+    .about-right {
+        width: 348px;
+    }
+    .absulate-sec {
+        background-size: cover;
+    }
+}
+
+
+@media all and (max-width: 768px){
+    .header-top-sec {
+        display: none;
+    }
+    .banner-text h1 {
+        font-size: 48px;
+    }
+
+
+    .about-top-left::before {
+        content: none;
+    }
+    .about-top-left img {
+        padding-right: 0;
+    }
+    .about-right::before {
+        content: none;
+    }
+    .about-right {
+        width: 100%;
+    }
+    .about-right img {
+        padding-left: 0px;
+    }
+    .about-right {
+        padding-bottom: 0;
+    }
+    .about-left {
+        padding-top: 0px;
+    }
+    
+
+}
+
+
+@media all and (max-width: 575px){
+    .logo img {
+        width: 370px;
+    }
+    .header {
+        flex-wrap: unset !important;
+    }
+    .logo img {
+        max-width:100%;
+    }
+    
+   
+}
+@media all and (max-width: 401px){
+    .bt-primary {
+        display: block !important;
+    }
+    .btn-b2 {
+        margin-top: 35px;
+    }
+    .banner-sec {
+        padding: 40px 0;
+    }
+}
+
+
+
+@media all and (max-width: 320px){
+
+}
